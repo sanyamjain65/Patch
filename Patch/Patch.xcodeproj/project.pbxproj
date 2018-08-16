@@ -531,6 +531,7 @@
 					"\"$(PODS_ROOT)/pjsip-ios/Pod/pjsip-lib\"",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
+				GCC_INPUT_FILETYPE = automatic;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PODS_ROOT)/pjsip-ios/Pod/pjsip-include\"",
@@ -576,6 +577,7 @@
 					"\"$(PODS_ROOT)/pjsip-ios/Pod/pjsip-lib\"",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
+				GCC_INPUT_FILETYPE = automatic;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PODS_ROOT)/pjsip-ios/Pod/pjsip-include\"",
