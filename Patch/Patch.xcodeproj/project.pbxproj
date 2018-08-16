@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D96B1F53212177B3004C78EE /* Patch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96B1F49212177B3004C78EE /* Patch.framework */; };
-		D96B1F58212177B3004C78EE /* PatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96B1F57212177B3004C78EE /* PatchTests.m */; };
 		D96B1F5A212177B3004C78EE /* Patch.h in Headers */ = {isa = PBXBuildFile; fileRef = D96B1F4C212177B3004C78EE /* Patch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D96B1F6621217A8F004C78EE /* PJSUAWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D96B1F6521217A8F004C78EE /* PJSUAWrapper.m */; };
 		D96B1F6821217CE9004C78EE /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96B1F6721217CE8004C78EE /* CallKit.framework */; };
@@ -53,8 +52,6 @@
 		D96B1F4C212177B3004C78EE /* Patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patch.h; sourceTree = "<group>"; };
 		D96B1F4D212177B3004C78EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D96B1F52212177B3004C78EE /* PatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D96B1F57212177B3004C78EE /* PatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatchTests.m; sourceTree = "<group>"; };
-		D96B1F59212177B3004C78EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D96B1F6321217A6F004C78EE /* CallCFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallCFunction.h; sourceTree = "<group>"; };
 		D96B1F6421217A80004C78EE /* PJSUAWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJSUAWrapper.h; sourceTree = "<group>"; };
 		D96B1F6521217A8F004C78EE /* PJSUAWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSUAWrapper.m; sourceTree = "<group>"; };
@@ -172,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				D96B1F4B212177B3004C78EE /* Patch */,
-				D96B1F56212177B3004C78EE /* PatchTests */,
 				D96B1F4A212177B3004C78EE /* Products */,
 				BCE862EAA04FA893836182D6 /* Pods */,
 				C08A955BCFB3CF5EADA84CE9 /* Frameworks */,
@@ -198,15 +194,6 @@
 				D96B1F6521217A8F004C78EE /* PJSUAWrapper.m */,
 			);
 			path = Patch;
-			sourceTree = "<group>";
-		};
-		D96B1F56212177B3004C78EE /* PatchTests */ = {
-			isa = PBXGroup;
-			children = (
-				D96B1F57212177B3004C78EE /* PatchTests.m */,
-				D96B1F59212177B3004C78EE /* Info.plist */,
-			);
-			path = PatchTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D96B1F58212177B3004C78EE /* PatchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
